@@ -74,7 +74,7 @@ while True:
     if not success:
         break
 
-    cv2.imshow("Webcam", img)  # aku ganti judul biar jelas window-nya
+    cv2.imshow("Webcam", img)  
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
